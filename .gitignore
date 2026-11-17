@@ -1,0 +1,15 @@
+# окружение и кэш Python
+.venv/
+__pycache__/
+*.pyc
+
+# результаты сборки (выкладываются в Releases, а не в репозиторий)
+build/
+dist/
+*.spec
+
+# генерируется tools/build.py
+installer/formats.iss
+
+# журналы
+*.log
